@@ -1,8 +1,5 @@
 5. Delete a Hard Disk Partition
 To delete a partition for the hard disk and free up space occupied by that partition for example '/dev/sdb'. Go to the command menu using following:  
-
 $ sudo fdisk /dev/sda
 and then type 'd' to go to the delete partition menu. It will prompt the partition number you want to delete(type the number).  
-
-
 Run 'w' command to write the changes and reboot the system. 
