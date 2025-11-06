@@ -3,3 +3,11 @@ To delete a partition for the hard disk and free up space occupied by that parti
 $ sudo fdisk /dev/sda
 and then type 'd' to go to the delete partition menu. It will prompt the partition number you want to delete(type the number).  
 Run 'w' command to write the changes and reboot the system. 
+
+For this go inside the hard drive partition that is the '/dev/sda' partition, and use the following command:  
+
+$ sudo fdisk /dev/sda
+Now you have to type n to create new partition and then type 'p' for making a primary partition and 'e' for making an extended or logical partition depending on the type of partition to make.  
+
+
+Run 'w' command to write the changes and reboot your system. 
